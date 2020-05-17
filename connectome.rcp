@@ -38,9 +38,9 @@ From: granek/default/singularity-rstudio-base:3.6.1
     apt-get install -y pandoc
     apt-get clean
    
-   pip3 install wheel
-   pip3 install notebook
-   pip3 install bash_kernel
+   python3 -m pip install wheel
+   python3 -m pip install notebook
+   python3 -m pip install bash_kernel
    python3 -m bash_kernel.install
    
    python3 -m pip install scipy
